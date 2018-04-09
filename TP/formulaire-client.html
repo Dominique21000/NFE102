@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <title>Formulaire Client</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+       
+     </head>
+    <body>
+        <header>Formulaire Client</header>
+        <div class="container contenu">
+            <div class="row">
+                <div id="leContenu" class="col-lg-8 col-md-offset-2">
+                    <h1>Veuillez saisir les informations pour votre compte client</h1>
+                    <div id="div-form">
+                    <form method="post" action="" id="formulaire_client">
+                        <label for='civilite'>Civilité : </label>
+                        <select name="civilite" id="civilite">
+                            <option value='m'>M.</option>
+                            <option value="mme">Mme</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="prenom">Prénom : </label>
+                        <input type="text" name="prenom" id="prenom"/><br>
+                        <div></div>
+                        <br>
+                        <label for="nom">Nom : </label>
+                        <input type="text" name="nom" id="nom"/><br>
+                        <div></div>
+                        <br>
+                        <br>
+                        <label for="adresse">Adresse : </label>
+                        <textarea name="adresse" id="adresse" cols="40" rows="2" resizable="none"></textarea><br>
+                        <div></div>
+                        <br>
+                        <br>
+                        <br>
+                        <label for="cp">Code Postal : </label><input type="text" name="cp" id="cp" size="5"><br>
+                        <div></div>
+                        <br>
+                        <br>
+                        <label for="ville">Ville : </label><input type="text" name="ville" id="ville"><br>
+                        <div></div>
+                        <br>
+                        <br>
+                        <label for="tel">Téléphone : </label><input type="number" name="telephone" id="tel" size="10"><br>
+                        <div></div>
+                        <br>
+                        
+                        <label for="email">Courriel : </label><input type="text" name="email" id="email"><br>
+                        <div></div>
+                        <br>
+                        
+                        <label for="login">Login : </label><input type="text" name="login" id="login"><br>
+                        <div></div>
+                        <br>
+                        <label for="mdp">Veuillez saisir votre mot de Passe : </label><input type="password" name="mdp" id="mdp">
+                        <br>
+                        <div></div>
+                        <br>
+                        <label for="mdp2">Confirmez votre mot de passe : </label><input type="password" name="mdp2" id="mdp2"/><br>
+                        <div></div>
+                        <br>
+                        <input type="submit" value="Validez" id="btn_validez">
+                        </div>
+                   </form>
+                </div>
+            </div>
+        </div>
+        <footer>NFE102 - Infrastructure technologique pour le commerce électronique</footer>
+        
+        <!-- pour less --> 
+        <link rel="stylesheet/less" type="text/css" href="css-less/style.less">
+        <link rel="stylesheet/less" type="text/css" href="css-less/position.less">
+        <script src="bibli/js/less.min.js" type="text/javascript"></script>
+        
+        <!-- jquery -->
+        <script src="bibli/js/jquery-3.3.1.js"></script>
+        
+         <!-- pour bootstrap -->
+        <link rel="stylesheet" type="text/css" href="bibli/css/bootstrap/docs.min.css">
+        <script src="bibli/js/bootstrap.js" type="text/javascript"></script>
+        
+        <script src="js/formulaire.js" type="text/javascript"></script>
+        <script src="js/jquery-formulaire.js"></script>
+        <script src="js/jquery-validation-formulaire.js"></script>
+        <script src="bibli/js/jquery.validate.js"></script>
+        <script src="bibli/js/additional-methods.js"></script>
+        <script src="bibli/js/localization/messages_fr.js"></script>
+    </body>
+</html>
+
